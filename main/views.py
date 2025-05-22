@@ -3,8 +3,11 @@ from django.shortcuts import render
 
 def index(request):
     context={
-        'title': 'Home',
-        'content': 'This is the shop store'
+        'title': 'Vogue Vibe',
+        'banner_title': 'City Diaries',
+        'banner_subtitle': 'Summer style',
+        'banner_button': 'See collection',
+        
     }
     return render(request, "main/index.html", context)
 
