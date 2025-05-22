@@ -1,0 +1,32 @@
+.career__wrapper {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.career__heading {
+    padding-bottom: 40px;
+}
+
+.career__heading h2 {
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.career__title {
+    padding: 30px 0;
+}
+
+.career__title h2 {
+    padding: 10px 0;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.career__email {
+    color: #000;
+    text-decoration: underline;
+}
+
+.career__email:hover {
+    opacity: 0.6;
+}

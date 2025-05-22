@@ -1,0 +1,52 @@
+{% extends "main/base.html" %} 
+{% load static %} 
+
+{% block css %} 
+<link rel="stylesheet" href="{% static "deps/css/career/career.css" %}"> 
+{% endblock %} 
+
+{% block career %}
+<section class="career">
+  <div class="container">
+    <div class="career__wrapper">
+      <div class="career__heading">
+        <h2>Join the Vogue Vibe Team</h2>
+      </div>
+      <p>
+        At Vogue Vibe, we believe fashion is a movement — and we’re looking for
+        creative, driven people to help us lead it.
+      </p>
+      <p>
+        Whether you're a stylist, developer, marketer, or logistics wizard —
+        there's a place for you here. We value passion, innovation, and
+        individuality. Our team is made up of people who love what they do and
+        aren’t afraid to push boundaries.
+      </p>
+      <div class="career__title">
+        <h2>Why Work With Us?</h2>
+      </div>
+      <ul>
+        <li>
+          <strong>Creative Culture:</strong> We embrace fresh ideas and bold
+          thinking.
+        </li>
+        <li>
+          <strong>Flexible Work:</strong> Hybrid options and results-driven
+          approach.
+        </li>
+        <li>
+          <strong>Style Discounts:</strong> Enjoy exclusive employee perks.
+        </li>
+      </ul>
+      <div class="career__title">
+        <h2>Open Positions</h2>
+      </div>
+      <p>
+        We’re always on the lookout for talent. Send your CV or portfolio to
+        <a class="career__email" href="mailto:careers@voguevibe.com">careers@voguevibe.com</a>
+        or check back soon for specific openings.
+      </p>
+    </div>
+  </div>
+</section>
+{% endblock %}
