@@ -9,3 +9,11 @@ body {
     margin: 0 auto;
     padding: 0 15px;   
 }
+
+.strip::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: rgb(180, 182, 183);
+    display: block;
+}

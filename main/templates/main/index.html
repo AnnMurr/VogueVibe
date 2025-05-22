@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{% static "deps/css/common/reset.css" %}"> 
     <link rel="stylesheet" href="{% static "deps/css/common/main.css" %}"> 
     <link rel="stylesheet" href="{% static "deps/css/shared/header/header.css" %}">
+    <link rel="stylesheet" href="{% static "deps/css/shared/footer/footer.css" %}">
     <link rel="stylesheet" href="{% static "deps/css/common/fonts.css" %}">
     <link rel="stylesheet" href="{% static "deps/css/home/banner.css" %}">
 
@@ -71,7 +72,7 @@
       </div>
     </header>
     <section class="banner">
-        <div>
+        <div class="banner__container">
             <div class="banner__wrapper">
                 <div class="banner__image">
                     <img src="{% static "deps/images/main-page-banner.jpg"%}" alt="">
@@ -94,5 +95,43 @@
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__top">
+                    <div class="footer__sotial-media">
+                        <ul class="footer__sotial-media-list">
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-pinterest"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-telegram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="strip"></div>
+                </div>
+                <div class="footer__copyright-content">
+                    <p>
+                        VOGUE VIBE UAB <br>
+                        Stiliaus al. 5, LT-08456 <br>
+                        Vilnius, Lietuva (Mode Plaza, 4 aukštas)                        
+                    </p>
+                    <p>
+                        © 2025 Vogue Vibe. Visos teisės saugomos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
   </body>
 </html>

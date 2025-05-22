@@ -1,5 +1,10 @@
+.banner__container {
+    padding: 60px 0;
+}
+
 .banner__wrapper {
     position: relative;
+    height: 36rem;
 }
 
 .banner__content {
