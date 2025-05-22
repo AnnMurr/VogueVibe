@@ -1,83 +1,18 @@
+{% extends "main/base.html" %}
 {% load static %}
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{% static "deps/css/common/reset.css" %}"> 
-    <link rel="stylesheet" href="{% static "deps/css/common/main.css" %}"> 
-    <link rel="stylesheet" href="{% static "deps/css/shared/header/header.css" %}">
-    <link rel="stylesheet" href="{% static "deps/css/shared/footer/footer.css" %}">
-    <link rel="stylesheet" href="{% static "deps/css/common/fonts.css" %}">
+{% block css %}
     <link rel="stylesheet" href="{% static "deps/css/home/banner.css" %}">
+{% endblock  %}
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"/>
-
-    <title>{{ title }}</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <div class="header__wrapper">
-          <div class="top_module">
-            <div class="top_module__wrapper">
-              <div class="top_module__left"></div>
-              <div class="logo">
-                <a href="#">Vogue Vibe</a>
-              </div>
-              <div class="top_module__right">
-                <div class="top_module__block">
-                  <div class="top_module__icon">
-                    <i class="bi bi-heart"></i>
-                  </div>
-                  <span>Favorite</span>
-                </div>
-                <div class="top_module__block">
-                  <div class="top_module__icon">
-                    <i class="bi bi-person"></i>
-                  </div>
-                  <span>sign in</span>
-                </div>
-                <div class="top_module__block">
-                  <div class="top_module__icon">
-                    <i class="bi bi-handbag"></i>
-                  </div>
-                  <span>Basket</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="header-menu">
-                <div class="header-menu__wrapper">
-                    <div class="header-menu__navbar">
-                        <ul class="header-menu__navigate-list">
-                            <li>For women</li>
-                            <li>For men</li>
-                            <li>For girls</li>
-                            <li>For boys</li>
-                        </ul>
-                    </div>
-                    <div class="header-menu__search">
-                        <div class="header-menu__search-icon">
-                            <span>
-                                <i class="bi bi-search"></i>
-                            </span>
-                        </div>
-                        <span>Search</span>
-                    </div>
-                </div>
-          </div>
-        </div>
-      </div>
-    </header>
+{% block banner %}
     <section class="banner">
         <div class="banner__container">
             <div class="banner__wrapper">
                 <div class="banner__image">
                     <img src="{% static "deps/images/main-page-banner.jpg"%}" alt="">
                 </div>
-               <div class="banner__content">
+            <div class="banner__content">
                 <div class="banner__title">
                     <h2>City Diaries</h2>
                 </div>
@@ -91,47 +26,10 @@
                         See collection
                     </button>
                 </div>
-               </div>
+            </div>
             </div>
         </div>
     </section>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__wrapper">
-                <div class="footer__top">
-                    <div class="footer__sotial-media">
-                        <ul class="footer__sotial-media-list">
-                            <li>
-                                <a href="#">
-                                    <i class="bi bi-instagram"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="bi bi-pinterest"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="bi bi-telegram"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="strip"></div>
-                </div>
-                <div class="footer__copyright-content">
-                    <p>
-                        VOGUE VIBE UAB <br>
-                        Stiliaus al. 5, LT-08456 <br>
-                        Vilnius, Lietuva (Mode Plaza, 4 aukštas)                        
-                    </p>
-                    <p>
-                        © 2025 Vogue Vibe. Visos teisės saugomos.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-  </body>
-</html>
+{% endblock  %}
+
+ 
