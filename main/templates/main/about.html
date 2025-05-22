@@ -1,0 +1,56 @@
+{% extends "main/base.html" %} 
+{% load static %} 
+
+{% block css %} 
+    <link rel="stylesheet" href="{% static "deps/css/about/about.css" %}"> 
+{% endblock %}
+
+{% block about %}
+<section class="about">
+  <div class="container">
+    <div class="about__wrapper">
+      <div class="about__heading">
+        <h2>About Vogue Vibe</h2>
+      </div>
+      <p>
+        Vogue Vibe is more than just an online clothing store — it's a curated
+        destination for modern style lovers. We bring you handpicked collections
+        that combine fashion-forward trends with timeless elegance.
+      </p>
+      <p>
+        Founded in 2025 in Vilnius, Lithuania, Vogue Vibe was created with a
+        mission to make high-quality fashion accessible, inspiring, and
+        sustainable. Whether you're searching for bold statement pieces or
+        minimalist essentials — we've got your wardrobe covered.
+      </p>
+      <div class="about__title">
+        <h2>What We Believe In</h2>
+      </div>
+      <ul>
+        <li>
+          <strong>Quality:</strong> We source fabrics and styles that are made
+          to last.
+        </li>
+        <li>
+          <strong>Sustainability:</strong> Eco-friendly choices, responsible
+          production.
+        </li>
+        <li>
+          <strong>Individuality:</strong> Fashion is personal — we help you
+          express it.
+        </li>
+      </ul>
+      <div class="about__title">
+        <h2>Contact Us</h2>
+      </div>
+      <p>
+        Got questions? Reach out at
+        <a class="about__email" href="mailto:hello@voguevibe.com">
+            hello@voguevibe.com
+        </a>
+        or follow us on social media for the latest drops and style tips.
+      </p>
+    </div>
+  </div>
+</section>
+{% endblock %}
