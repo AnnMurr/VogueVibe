@@ -24,7 +24,7 @@
             <div class="top_module__wrapper">
               <div class="top_module__left"></div>
               <div class="logo">
-                <a href="#">{{ title }}</a>
+                <a href="{% url "main:index" %}">{{ title }}</a>
               </div>
               <div class="top_module__right">
                 <div class="top_module__block">
@@ -81,7 +81,7 @@
     {% endblock %}
 
     {% block career %}
-      
+
     {% endblock  %}
 
     <footer class="footer">
@@ -96,10 +96,10 @@
                 </div>
                 <ul class="footer__navigate-list">
                   <li>
-                    <a href="#"> About </a>
+                    <a href="{% url "main:about" %}"> About </a>
                   </li>
                   <li>
-                    <a href="#"> Сareer </a>
+                    <a href="{% url "main:career" %}"> Сareer </a>
                   </li>
                 </ul>
               </div>

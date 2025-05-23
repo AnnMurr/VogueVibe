@@ -6,13 +6,18 @@ def index(request):
         'title': 'Vogue Vibe',
         'banner_title': 'City Diaries',
         'banner_subtitle': 'Summer style',
-        'banner_button': 'See collection',
-        
+        'banner_button': 'See collection',  
     }
     return render(request, "main/index.html", context)
 
 def about(request):
-    return render(request, "main/about.html")
+    context={
+         'title': 'Vogue Vibe',
+    }
+    return render(request, "main/about.html", context)
 
 def career(request) :
-    return render(request, "main/career.html")
+    context={
+         'title': 'Vogue Vibe',
+    }
+    return render(request, "main/career.html", context)
