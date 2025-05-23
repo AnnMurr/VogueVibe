@@ -11,19 +11,25 @@ def index(request):
     return render(request, "main/index.html", context)
 
 def about(request):
-    context={
+    context = {
          'title': 'Vogue Vibe',
     }
     return render(request, "main/about.html", context)
 
 def career(request):
-    context={
+    context = {
          'title': 'Vogue Vibe',
     }
     return render(request, "main/career.html", context)
 
 def privacy(request):
-    context={
+    context = {
          'title': 'Vogue Vibe',
     }
     return render(request, "main/privacy.html", context)
+
+def terms(request):
+    context = {
+       'title': 'Vogue Vibe', 
+    }
+    return render(request, "main/terms.html", context)
