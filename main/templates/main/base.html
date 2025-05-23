@@ -84,6 +84,10 @@
 
     {% endblock  %}
 
+    {% block privacy %}
+
+    {% endblock  %}
+
     <footer class="footer">
       <div class="footer__container">
         <div class="footer__wrapper">
@@ -109,7 +113,7 @@
                 </div>
                 <ul class="footer__navigate-list">
                   <li>
-                    <a href="#"> Privacy Policy </a>
+                    <a href="{% url "main:privacy" %}"> Privacy Policy </a>
                   </li>
                   <li>
                     <a href="#"> Terms of Website Use </a>

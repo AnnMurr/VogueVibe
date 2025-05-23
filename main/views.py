@@ -16,8 +16,14 @@ def about(request):
     }
     return render(request, "main/about.html", context)
 
-def career(request) :
+def career(request):
     context={
          'title': 'Vogue Vibe',
     }
     return render(request, "main/career.html", context)
+
+def privacy(request):
+    context={
+         'title': 'Vogue Vibe',
+    }
+    return render(request, "main/privacy.html", context)
