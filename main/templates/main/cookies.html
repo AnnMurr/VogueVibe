@@ -1,0 +1,96 @@
+{% extends "main/base.html" %} 
+{% load static %} 
+
+{% block css %} 
+  <link rel="stylesheet" href="{% static "deps/css/cookies/cookies.css"%}"> 
+{% endblock %} 
+
+{% block cookies %}
+<section class="cookies">
+  <div class="container">
+    <div class="cookies__wrapper">
+      <div class="cookies__heading">
+        <h2>Cookie Policy</h2>
+      </div>
+      <p><strong>Last updated:</strong> January 1, 2025</p>
+      <p>
+        This Cookie Policy explains how Vogue Vibe ("we", "our", or "us") uses
+        cookies and similar technologies when you visit our website.
+      </p>
+      <div class="cookies__title">
+        <h2>1. What Are Cookies?</h2>
+      </div>
+      <p>
+        Cookies are small text files that are stored on your device when you
+        visit a website. They help websites remember your preferences and
+        enhance your user experience.
+      </p>
+      <div class="cookies__title">
+        <h2>2. Types of Cookies We Use</h2>
+      </div>
+      <ul>
+        <li>
+          <strong>Essential Cookies:</strong> These are necessary for the
+          website to function properly (e.g., login sessions, cart management).
+        </li>
+        <li>
+          <strong>Performance Cookies:</strong> These help us understand how
+          users interact with the website by collecting anonymous data.
+        </li>
+        <li>
+          <strong>Functionality Cookies:</strong> These remember your
+          preferences (e.g., language, region) for a more personalized
+          experience.
+        </li>
+        <li>
+          <strong>Marketing Cookies:</strong> These are used to deliver relevant
+          ads and measure the effectiveness of our campaigns.
+        </li>
+      </ul>
+      <div class="cookies__title">
+        <h2>3. Third-Party Cookies</h2>
+      </div>
+      <p>
+        We may allow third-party services like Google Analytics or Meta Pixel to
+        set cookies that help us analyze traffic or deliver ads. These providers
+        have their own cookie and privacy policies.
+      </p>
+      <div class="cookies__title">
+        <h2>4. How You Can Control Cookies</h2>
+      </div>
+      <p>You have the right to accept or reject cookies. You can:</p>
+      <ul>
+        <li>Change your browser settings to block or delete cookies.</li>
+        <li>Use cookie consent banners to manage preferences.</li>
+        <li>
+          Opt out of tracking via third-party platforms (e.g., Google,
+          Facebook).
+        </li>
+      </ul>
+      <p>
+        Please note that disabling cookies may affect the functionality of
+        certain parts of our website.
+      </p>
+      <div class="cookies__title">
+        <h2>5. Updates to This Policy</h2>
+      </div>
+      <p>
+        We may update this Cookie Policy to reflect changes in technology,
+        legislation, or our practices. Any updates will be posted on this page
+        with a revised date.
+      </p>
+      <div class="cookies__title">
+        <h2>6. Contact Us</h2>
+      </div>
+      <p>
+        If you have any questions about our use of cookies, please contact us
+        at:<br />
+        <strong>Email:</strong>
+        <a class="cookies__email" href="mailto:privacy@voguevibe.com">privacy@voguevibe.com</a><br />
+        <strong>Address:</strong> Vogue Vibe UAB, Stiliaus al. 5, LT-08456,
+        Vilnius, Lithuania
+      </p>
+    </div>
+  </div>
+</section>
+{% endblock %}

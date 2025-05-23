@@ -33,3 +33,9 @@ def terms(request):
        'title': 'Vogue Vibe', 
     }
     return render(request, "main/terms.html", context)
+
+def cookies(request):
+    context = {
+       'title': 'Vogue Vibe', 
+    }
+    return render(request, "main/cookies.html", context)
