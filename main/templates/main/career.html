@@ -2,14 +2,14 @@
 {% load static %} 
 
 {% block css %} 
-<link rel="stylesheet" href="{% static "deps/css/career/career.css" %}"> 
+<link rel="stylesheet" href="{% static "deps/css/info/info_pages.css" %}"> 
 {% endblock %} 
 
 {% block career %}
-<section class="career">
-  <div class="container">
-    <div class="career__wrapper">
-     
+<section class="info-page">
+  <div class="info-page__container">
+    <div class="info-page__wrapper info-page__wrapper_text-center">
+    <div class="info-page__heading">
         <h2>Join the Vogue Vibe Team</h2>
       </div>
       <p>
@@ -22,7 +22,7 @@
         individuality. Our team is made up of people who love what they do and
         aren’t afraid to push boundaries.
       </p>
-      <div class="career__title">
+      <div class="info-page__title">
         <h2>Why Work With Us?</h2>
       </div>
       <ul>
@@ -38,15 +38,16 @@
           <strong>Style Discounts:</strong> Enjoy exclusive employee perks.
         </li>
       </ul>
-      <div class="career__title">
+      <div class="info-page__title">
         <h2>Open Positions</h2>
       </div>
       <p>
         We’re always on the lookout for talent. Send your CV or portfolio to
-        <a class="career__email" href="mailto:careers@voguevibe.com">careers@voguevibe.com</a>
+        <a class="info-page__email" href="mailto:careers@voguevibe.com">careers@voguevibe.com</a>
         or check back soon for specific openings.
       </p>
     </div>
+  </div>
   </div>
 </section>
 {% endblock %}

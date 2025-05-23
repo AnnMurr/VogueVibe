@@ -2,14 +2,14 @@
 {% load static %} 
 
 {% block css %} 
-    <link rel="stylesheet" href="{% static "deps/css/about/about.css" %}"> 
+    <link rel="stylesheet" href="{% static "deps/css/info/info_pages.css" %}"> 
 {% endblock %}
 
 {% block about %}
-<section class="about">
-  <div class="container">
-    <div class="about__wrapper">
-      <div class="about__heading">
+<section class="info-page">
+  <div class="info-page__container">
+    <div class="info-page__wrapper info-page__wrapper_text-center">
+      <div class="info-page__heading">
         <h2>About Vogue Vibe</h2>
       </div>
       <p>
@@ -23,7 +23,7 @@
         sustainable. Whether you're searching for bold statement pieces or
         minimalist essentials — we've got your wardrobe covered.
       </p>
-      <div class="about__title">
+      <div class="info-page__title">
         <h2>What We Believe In</h2>
       </div>
       <ul>
@@ -40,12 +40,12 @@
           express it.
         </li>
       </ul>
-      <div class="about__title">
+      <div class="info-page__title">
         <h2>Contact Us</h2>
       </div>
       <p>
         Got questions? Reach out at
-        <a class="about__email" href="mailto:hello@voguevibe.com">
+        <a class="info-page__email" href="mailto:hello@voguevibe.com">
             hello@voguevibe.com
         </a>
         or follow us on social media for the latest drops and style tips.

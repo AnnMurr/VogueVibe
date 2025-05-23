@@ -1,32 +1,40 @@
-.career__wrapper {
+.info-page__container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.info-page__wrapper {
     padding: 60px 0;
+}
+
+.info-page__wrapper_text-center {
     text-align: center;
 }
 
-.career__heading {
+.info-page__heading {
     padding-bottom: 40px;
 }
 
-.career__heading h2 {
+.info-page__heading h2 {
     font-weight: 500;
     letter-spacing: 2px;
 }
 
-.career__title {
+.info-page__title {
     padding: 30px 0;
 }
 
-.career__title h2 {
+.info-page__title h2 {
     padding: 10px 0;
     font-weight: 400;
     font-size: 24px;
 }
 
-.career__email {
+.info-page__email {
     color: #000;
     text-decoration: underline;
 }
 
-.career__email:hover {
+.info-page__email:hover {
     opacity: 0.6;
 }
