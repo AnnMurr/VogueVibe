@@ -1,0 +1,46 @@
+.card__top {
+    position: relative;
+}
+
+.catalog__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 40px 20px ;
+}
+
+.card__description {
+    padding: 20px 0 10px 0;
+}
+
+.card__description p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.card__price span {
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.card__like {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+}
+
+.card__like:hover {
+    opacity: 0.6;
+}
+
+.card__basket {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 20px;
+}
+
+.card__basket:hover {
+    opacity: 0.6;
+}

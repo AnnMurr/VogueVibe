@@ -10,6 +10,10 @@ body {
     padding: 0 15px;   
 }
 
+.wrapper {
+    padding: 60px 0;
+}
+
 .strip::after {
     content: "";
     width: 100%;

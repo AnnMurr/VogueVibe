@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="{% static "deps/css/home/banner.css" %}">
 {% endblock  %}
 
-{% block banner %}
+{% block content %}
     <section class="banner">
         <div class="banner__container">
             <div class="banner__wrapper">
@@ -24,9 +24,9 @@
                     </h5>
                 </div>
                 <div class="banner__button-wrap">
-                    <button>
+                    <a href="{% url "catalog:index" %}">
                         {{ banner_button }}
-                    </button>
+                    </a>
                 </div>
             </div>
             </div>

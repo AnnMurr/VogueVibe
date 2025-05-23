@@ -60,15 +60,17 @@
     font-size: 20px;
 }
 
-.banner__button-wrap button {
+.banner__button-wrap a {
     background-color: #fff;
     color: #000;
     padding: 8px 50px;
     border: 1px solid transparent;
     font-weight: 400;
+    text-align: center;
+    display: block;
 }
 
-.banner__button-wrap button:hover {
+.banner__button-wrap a:hover {
     background-color: transparent;
     color: #fff;
     border: 1px solid white;
