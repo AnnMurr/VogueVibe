@@ -9,5 +9,5 @@ def catalog(request):
     }
     return render(request, "goods/catalog.html", context)
     
-# def product(request):
-#     render()
+def product(request):
+    render()

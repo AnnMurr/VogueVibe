@@ -54,6 +54,10 @@
 
 .header-menu__navigate-list li {
     padding: 0 20px;
+}
+
+.header-menu__navigate-list li a {
+    color: #000;
     font-weight: 400;
 }
 
