@@ -5,7 +5,54 @@ from django.shortcuts import render
 
 def catalog(request):
     context = {
-       'title': 'Vogue Vibe', 
+       'title': 'Vogue Vibe',
+       'goods': [
+           {
+               'image': 'deps/images/t-shirt.jpeg',
+               'name': 'T-shirt',
+               'price': 14.99
+           },
+           {
+               'image': 'deps/images/t-shirt.jpeg',
+               'name': 'T-shirt',
+               'price': 14.99
+           },
+           {
+               'image': 'deps/images/t-shirt.jpeg',
+               'name': 'T-shirt',
+               'price': 14.99
+           },
+           {
+               'image': 'deps/images/t-shirt.jpeg',
+               'name': 'T-shirt',
+               'price': 14.99
+           },
+           {
+               'image': 'deps/images/t-shirt.jpeg',
+               'name': 'T-shirt',
+               'price': 14.99
+           },
+           {
+               'image': 'deps/images/t-shirt.jpeg',
+               'name': 'T-shirt',
+               'price': 14.99
+           },
+           {
+               'image': 'deps/images/t-shirt.jpeg',
+               'name': 'T-shirt',
+               'price': 14.99
+           },
+           {
+               'image': 'deps/images/t-shirt.jpeg',
+               'name': 'T-shirt',
+               'price': 14.99
+           },
+           {
+               'image': 'deps/images/t-shirt.jpeg',
+               'name': 'T-shirt',
+               'price': 14.99
+           },
+       ] 
     }
     return render(request, "goods/catalog.html", context)
     

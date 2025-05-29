@@ -10,195 +10,36 @@
   <div class="container">
     <div class="wrapper">
       <div class="catalog__grid">
-        <a href="" class="card">
-          <div class="card__wrapper">
-            <div class="card__top">
-              <div class="card__like">
-                <button type="button">
-                  <i class="bi bi-heart"></i>
-                </button>
+
+        {% for product in goods %}
+          <a href="" class="card">
+            <div class="card__wrapper">
+              <div class="card__top">
+                <div class="card__like">
+                  <button type="button">
+                    <i class="bi bi-heart"></i>
+                  </button>
+                </div>
+                <div class="card__basket">
+                  <button type="button">
+                    <i class="bi bi-handbag"></i>
+                  </button>
+                </div>
+                <div class="card__image">
+                  <img src="{% static product.image  %}" alt="">
+                </div>
               </div>
-              <div class="card__basket">
-                <button type="button">
-                  <i class="bi bi-handbag"></i>
-                </button>
-              </div>
-              <div class="card__image">
-                <img src="{% static "deps/images/t-shirt.jpeg" %}" alt="">
-              </div>
-            </div>
-            <div class="card__info">
-              <div class="card__description">
-                <p>T-Shirt</p>
-              </div>
-              <div class="card__price">
-                <span> 23,45$ </span>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a class="card">
-          <div class="card__wrapper">
-            <div class="card__top">
-              <div class="card__like">
-                <button type="button">
-                  <i class="bi bi-heart"></i>
-                </button>
-              </div>
-              <div class="card__basket">
-                <button type="button">
-                  <i class="bi bi-handbag"></i>
-                </button>
-              </div>
-              <div class="card__image">
-                <img src="{% static "deps/images/t-shirt.jpeg" %}" alt="">
+              <div class="card__info">
+                <div class="card__description">
+                  <p>{{ product.name }}</p>
+                </div>
+                <div class="card__price">
+                  <span> {{ product.price }} </span>
+                </div>
               </div>
             </div>
-            <div class="card__info">
-              <div class="card__description">
-                <p>T-Shirt</p>
-              </div>
-              <div class="card__price">
-                <span> 23,45$ </span>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a class="card">
-          <div class="card__wrapper">
-            <div class="card__top">
-              <div class="card__like">
-                <button type="button">
-                  <i class="bi bi-heart"></i>
-                </button>
-              </div>
-              <div class="card__basket">
-                <button type="button">
-                  <i class="bi bi-handbag"></i>
-                </button>
-              </div>
-              <div class="card__image">
-                <img src="{% static "deps/images/t-shirt.jpeg" %}" alt="">
-              </div>
-            </div>
-            <div class="card__info">
-              <div class="card__description">
-                <p>T-Shirt</p>
-              </div>
-              <div class="card__price">
-                <span> 23,45$ </span>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a class="card">
-          <div class="card__wrapper">
-            <div class="card__top">
-              <div class="card__like">
-                <button type="button">
-                  <i class="bi bi-heart"></i>
-                </button>
-              </div>
-              <div class="card__basket">
-                <button type="button">
-                  <i class="bi bi-handbag"></i>
-                </button>
-              </div>
-              <div class="card__image">
-                <img src="{% static "deps/images/t-shirt.jpeg" %}" alt="">
-              </div>
-            </div>
-            <div class="card__info">
-              <div class="card__description">
-                <p>T-Shirt</p>
-              </div>
-              <div class="card__price">
-                <span> 23,45$ </span>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a class="card">
-          <div class="card__wrapper">
-            <div class="card__top">
-              <div class="card__like">
-                <button type="button">
-                  <i class="bi bi-heart"></i>
-                </button>
-              </div>
-              <div class="card__basket">
-                <button type="button">
-                  <i class="bi bi-handbag"></i>
-                </button>
-              </div>
-              <div class="card__image">
-                <img src="{% static "deps/images/t-shirt.jpeg" %}" alt="">
-              </div>
-            </div>
-            <div class="card__info">
-              <div class="card__description">
-                <p>T-Shirt</p>
-              </div>
-              <div class="card__price">
-                <span> 23,45$ </span>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a class="card">
-          <div class="card__wrapper">
-            <div class="card__top">
-              <div class="card__like">
-                <button type="button">
-                  <i class="bi bi-heart"></i>
-                </button>
-              </div>
-              <div class="card__basket">
-                <button type="button">
-                  <i class="bi bi-handbag"></i>
-                </button>
-              </div>
-              <div class="card__image">
-                <img src="{% static "deps/images/t-shirt.jpeg" %}" alt="">
-              </div>
-            </div>
-            <div class="card__info">
-              <div class="card__description">
-                <p>T-Shirt</p>
-              </div>
-              <div class="card__price">
-                <span> 23,45$ </span>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a class="card">
-          <div class="card__wrapper">
-            <div class="card__top">
-              <div class="card__like">
-                <button type="button">
-                  <i class="bi bi-heart"></i>
-                </button>
-              </div>
-              <div class="card__basket">
-                <button type="button">
-                  <i class="bi bi-handbag"></i>
-                </button>
-              </div>
-              <div class="card__image">
-                <img src="{% static "deps/images/t-shirt.jpeg" %}" alt="">
-              </div>
-            </div>
-            <div class="card__info">
-              <div class="card__description">
-                <p>T-Shirt</p>
-              </div>
-              <div class="card__price">
-                <span> 23,45$ </span>
-              </div>
-            </div>
-          </div>
-        </a>
+          </a>
+        {% endfor %}
       </div>
     </div>
   </div>

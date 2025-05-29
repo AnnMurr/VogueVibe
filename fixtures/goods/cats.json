@@ -1,0 +1,27 @@
+[
+  {
+    "model": "goods.categories",
+    "pk": 2,
+    "fields": { "name": "All collection", "slug": "all" }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 3,
+    "fields": { "name": "For women", "slug": "for-women" }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 4,
+    "fields": { "name": "For men", "slug": "for-men" }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 5,
+    "fields": { "name": "For girls", "slug": "for-girls" }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 6,
+    "fields": { "name": "For boys", "slug": "for-boys" }
+  }
+]

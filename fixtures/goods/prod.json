@@ -1,0 +1,58 @@
+[
+  {
+    "model": "goods.products",
+    "pk": 1,
+    "fields": {
+      "name": "T-shirt",
+      "slug": "t-shirt",
+      "description": "",
+      "image": "goods_images/t-shirt.jpeg",
+      "price": "12.99",
+      "discount": "0.00",
+      "quantity": 10,
+      "category": 3
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 2,
+    "fields": {
+      "name": "Girls zip up sweatshirt",
+      "slug": "girls-zip-up-sweatshirt",
+      "description": "",
+      "image": "goods_images/girls_zip_up_sweatshirt.jpeg",
+      "price": "9.69",
+      "discount": "0.00",
+      "quantity": 5,
+      "category": 5
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 3,
+    "fields": {
+      "name": "Sweatshirt",
+      "slug": "sweatshirt",
+      "description": "",
+      "image": "goods_images/sweatshirt.jpeg",
+      "price": "25.89",
+      "discount": "0.00",
+      "quantity": 0,
+      "category": 4
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 4,
+    "fields": {
+      "name": "Shirt for boy",
+      "slug": "shirt-for-boy",
+      "description": "",
+      "image": "goods_images/shirt_for_boy.jpeg",
+      "price": "14.15",
+      "discount": "0.00",
+      "quantity": 13,
+      "category": 6
+    }
+  }
+]

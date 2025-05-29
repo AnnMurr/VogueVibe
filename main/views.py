@@ -1,11 +1,17 @@
 from django.shortcuts import render
 
+from goods.models import Categories
+
 def index(request):
+    
+    categories = Categories.objects.all()
+    
     context={
         'title': 'Vogue Vibe',
         'banner_title': 'City Diaries',
         'banner_subtitle': 'Summer style',
-        'banner_button': 'See collection',  
+        'banner_button': 'See collection',
+        'categories': categories  
     }
     return render(request, "main/index.html", context)
 

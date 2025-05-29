@@ -52,10 +52,9 @@
             <div class="header-menu__wrapper">
               <div class="header-menu__navbar">
                 <ul class="header-menu__navigate-list">
-                  <li><a href="{% url "catalog:index" %}">For women</a></li>
-                  <li><a href="{% url "catalog:index" %}">For men</a></li>
-                  <li><a href="{% url "catalog:index" %}">For girls</a></li>
-                  <li><a href="{% url "catalog:index" %}">For boys</a></li>
+                  {% for category in categories %}
+                   <li><a href="{% url "catalog:index" %}">{{ category.name }}</a></li>
+                  {% endfor %}
                 </ul>
               </div>
               <div class="header-menu__search">
